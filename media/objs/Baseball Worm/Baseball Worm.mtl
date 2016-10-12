@@ -1,0 +1,68 @@
+# Blender3D MTL File: Baseball Worm.blend
+# Material Count: 6
+newmtl RefRep.223_Hands.png__Hands.png
+Ns 86.274510
+Ka 0.000000 0.000000 0.000000
+Kd 0.327680 0.327680 0.327680
+Ks 0.062500 0.062500 0.062500
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Textures/Hands.png
+
+
+newmtl RefRep.227_Teeth.png__Teeth.png
+Ns 86.274510
+Ka 0.000000 0.000000 0.000000
+Kd 0.327680 0.327680 0.327680
+Ks 0.062500 0.062500 0.062500
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Textures/Teeth.png
+
+
+newmtl RefRep.303_Bat.png
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Textures/Bat.png
+
+
+newmtl RefRep.305_Cap.png
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Textures/Cap.png
+
+
+newmtl RefRep.225_Eyes.png_E_Eyes.png
+Ns 86.274510
+Ka 0.000000 0.000000 0.000000
+Kd 0.327680 0.327680 0.327680
+Ks 0.062500 0.062500 0.062500
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Textures/Eyes.png
+
+
+newmtl RefRep.221_Body.png_B_Body.png
+Ns 86.274510
+Ka 0.000000 0.000000 0.000000
+Kd 0.327680 0.327680 0.327680
+Ks 0.062500 0.062500 0.062500
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Textures/Body.png
+
+

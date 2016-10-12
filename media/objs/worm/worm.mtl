@@ -1,0 +1,57 @@
+# Blender3D MTL File: Fire Punch Worm.blend
+# Material Count: 5
+newmtl RefRep.330_Headband.p_Headband.png
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.512000 0.512000 0.512000
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Textures/Headband.png
+
+
+newmtl RefRep.225_Eyes.p_Eyes.png.001
+Ns 84.313725
+Ka 0.000000 0.000000 0.000000
+Kd 0.262144 0.262144 0.262144
+Ks 0.031250 0.031250 0.031250
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Textures/Eyes.png
+
+
+newmtl RefRep.227_Teeth._Teeth.png.001
+Ns 84.313725
+Ka 0.000000 0.000000 0.000000
+Kd 0.262144 0.262144 0.262144
+Ks 0.031250 0.031250 0.031250
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Textures/Teeth.png
+
+
+newmtl RefRep.221_Body.p_Body.png.001
+Ns 84.313725
+Ka 0.000000 0.000000 0.000000
+Kd 0.262144 0.262144 0.262144
+Ks 0.031250 0.031250 0.031250
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Textures/Body.png
+
+
+newmtl RefRep.223_Hands._Hands.png.001
+Ns 84.313725
+Ka 0.000000 0.000000 0.000000
+Kd 0.262144 0.262144 0.262144
+Ks 0.031250 0.031250 0.031250
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Textures/Hands.png
+
+
