@@ -15,11 +15,13 @@ An incredible project group.
 ![alt tag](https://raw.githubusercontent.com/usernameHed/Worms/master/ObjWorms.gif)
 
 
-Une fois le tout pris en main et la map affiché, j'ai effectué un long travail de gestion de variable et d'aléat pour que la génération aléatoire de la map soit jouable et attrayante, ainsi que challengante pour un worms !
+ - Once the displayed map, I made a long mork on variable management for random generation of the map. For the map is the most attractive, playable, challengeante for worms!
+ 
+ - Finally, and not least, I handled entirely from the body of the game: the gameLoop, the physics engine and weapons management.
+ 
+ - I also did the liaison with the graphics and implementation of AI ennemy worms.
 
-Lorsque la création / destruction d'une map à été effectué, je me suis occupé entièrement du corps du jeu: la gameloop (boucle de jeu), le moteur physique ainsi que la gestion des armes et la liaison avec le graphique et l'implémentation de l'IA.
-
-Here is the result of how to turn coffee in a game:
+Here is the result of how to turn coffee into a game !
 ![alt tag](https://raw.githubusercontent.com/usernameHed/Worms/master/Worms.gif)
 
 Here is the compilation !
