@@ -14,12 +14,12 @@ An incredible project group.
 
 ![alt tag](https://raw.githubusercontent.com/usernameHed/Worms/master/ObjWorms.gif)
 
-
- - Once the displayed map, I made a long mork on variable management for random generation of the map. For the map is the most attractive, playable, challengeante for worms!
+ - Once the displayed map, I made a long mork on variable management for random generation of the map. For the map is the most attractive, playable, challengeante for worms: **The map is Randomized, good looking, alterable on the fly and playable ! Hard work done !**
  
- - Finally, and not least, I handled entirely from the body of the game: the gameLoop, the physics engine and weapons management.
+ - Finally, and not least, I handled entirely from the body of the game: the **gameLoop**, the **physics engine** and **weapons management.**
+ - My friends responsable of the Graphic Library Irrlicht took charge of it, a very difficult task to do in C++. We worked together to link the map, display of games and HUD with the library
  
- - I also did the liaison with the graphics and implementation of AI ennemy worms.
+ - My second partner and I worked on the AI system of ennemy worms.
 
 Here is the result of how to turn coffee into a game !
 ![alt tag](https://raw.githubusercontent.com/usernameHed/Worms/master/Worms.gif)
