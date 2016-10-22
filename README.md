@@ -14,7 +14,7 @@ An incredible project group.
 
  - Firstly, I have participated in the design of the game and the division of tasks.
 
- - I then coupled to the random generation of the map as well as all connected destruction functions: a long **rasterizing algorithm design.**. Indeed he had created a large map (more than 10000 * 10000), show circles, triangles, lines and polygons in 3D ... For optimization questions, the display of the map s is made using a unique 3D Obj. W had to create on the fly after each map destruction a new obj model. For this, we studied the models of ".obj" Simple File Blender 3d shapes. After a long work, we finaly got the algorithm for this:
+ - I then coupled to the random generation of the map as well as all connected destruction functions: a long **rasterizing algorithm design.**. Indeed he had created a large map (more than 10000 * 10000), show circles, triangles, lines and polygons in 3D ... For optimization questions, the display of the map s is made using a unique 3D Obj. We had to create on the fly after each map destruction a new obj model. For this, Goutfer and I studied the models of ".obj" Simple File Blender 3d shapes. After a long work, we finaly got the algorithm for this:
 
 ![alt tag](https://raw.githubusercontent.com/usernameHed/Worms/master/ObjWorms.gif)
 
