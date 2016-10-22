@@ -1,5 +1,9 @@
 # Worms
-Indie Studio is the **last C++ project** of your second year in Epitech. It consists in **programming a 3D video game** with real tools. We choose the Worms, the most difficult game (and the funiest) in the list of choice. The game had to feature specific functionnalities and **to offer a real gaming experience**
+Indie Studio is the **last C++ project** of your second year in Epitech. It consists in **programming a 3D video game** with real tools. We choose the Worms, the most difficult game (and the funiest) in the list of choice. The game had to feature specific functionnalities and **to offer a real gaming experience**. 
+This project is normally done in groups of 7 in 4 month. We were 3, and we had 2 month:
+ - Benjamin Goutfer - Project leader - It is in charge of communication, and helped me to AI
+ - Illiasse Rifki - Graphist / UI - He is responsible for the graphic / GUI and library Irrlicht
+ - Myself, Ugo Belfiore - I made the whole game engine
 
 This is our WorldWarWorms 3D !
 
