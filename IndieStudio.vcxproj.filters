@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sources\includes\AddWater.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\AICore.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\AIExecute.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\Bullet.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\Circle.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\Cryptor.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\Cursor.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\Display.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\Drill.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\Dynamit.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\EventHandler.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\Forme2D.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\GameLoop.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\Grass.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\Grenade.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\Hole.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\IaThinking.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\indie.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\IslandGenerator.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\Life.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\Line.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\LineMaker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\Log.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\Map.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\MapOptimizor.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\Menu.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\Position.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\RandNano.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\Rasterization.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\Rocket.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\Sound.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\Spawn.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\Spawner.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\StringObject.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\Team.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\template.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\template.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\Triangle.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\VecToObj.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\Weapons.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\includes\Worms.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sources\AddWater.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\AICore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\AIExecute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Bullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Circle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Cryptor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Display.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\DisplayCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\DisplayEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\DisplayFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\DisplayHUD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\DisplayIa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\DisplayMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\DisplayPhysics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\DisplayWeapons.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Drill.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Dynamit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\EventHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Forme2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\GameLoopFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\GameLoopInit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Grass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Grenade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Hole.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\IaThinking.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\IslandGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Life.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Line.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\LineMaker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\MapOptimizor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\RandNano.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Rasterization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Rocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Sound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Spawn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Spawner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\StringObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Team.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Triangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\VecToObj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Weapons.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Worms.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\DisplayInit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="IndieStudio.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="media\background\icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

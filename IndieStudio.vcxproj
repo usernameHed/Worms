@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="sources\includes\AddWater.hh" />
+    <ClInclude Include="sources\includes\AICore.hh" />
+    <ClInclude Include="sources\includes\AIExecute.hh" />
+    <ClInclude Include="sources\includes\Bullet.hh" />
+    <ClInclude Include="sources\includes\Circle.hh" />
+    <ClInclude Include="sources\includes\Cryptor.hh" />
+    <ClInclude Include="sources\includes\Cursor.hh" />
+    <ClInclude Include="sources\includes\Display.hh" />
+    <ClInclude Include="sources\includes\Drill.hh" />
+    <ClInclude Include="sources\includes\Dynamit.hh" />
+    <ClInclude Include="sources\includes\EventHandler.hh" />
+    <ClInclude Include="sources\includes\Forme2D.hh" />
+    <ClInclude Include="sources\includes\GameLoop.hh" />
+    <ClInclude Include="sources\includes\Grass.hh" />
+    <ClInclude Include="sources\includes\Grenade.hh" />
+    <ClInclude Include="sources\includes\Hole.hh" />
+    <ClInclude Include="sources\includes\IaThinking.hh" />
+    <ClInclude Include="sources\includes\indie.hh" />
+    <ClInclude Include="sources\includes\IslandGenerator.hh" />
+    <ClInclude Include="sources\includes\Life.hh" />
+    <ClInclude Include="sources\includes\Line.hh" />
+    <ClInclude Include="sources\includes\LineMaker.hh" />
+    <ClInclude Include="sources\includes\Log.hh" />
+    <ClInclude Include="sources\includes\Map.hh" />
+    <ClInclude Include="sources\includes\MapOptimizor.hh" />
+    <ClInclude Include="sources\includes\Menu.hh" />
+    <ClInclude Include="sources\includes\Position.hh" />
+    <ClInclude Include="sources\includes\RandNano.hh" />
+    <ClInclude Include="sources\includes\Rasterization.hh" />
+    <ClInclude Include="sources\includes\Rocket.hh" />
+    <ClInclude Include="sources\includes\Sound.hh" />
+    <ClInclude Include="sources\includes\Spawn.hh" />
+    <ClInclude Include="sources\includes\Spawner.hh" />
+    <ClInclude Include="sources\includes\StringObject.hh" />
+    <ClInclude Include="sources\includes\Team.hh" />
+    <ClInclude Include="sources\includes\template.hh" />
+    <ClInclude Include="sources\includes\template.hpp" />
+    <ClInclude Include="sources\includes\Triangle.hh" />
+    <ClInclude Include="sources\includes\VecToObj.hh" />
+    <ClInclude Include="sources\includes\Weapons.hh" />
+    <ClInclude Include="sources\includes\Worms.hh" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sources\AddWater.cpp" />
+    <ClCompile Include="sources\AICore.cpp" />
+    <ClCompile Include="sources\AIExecute.cpp" />
+    <ClCompile Include="sources\Bullet.cpp" />
+    <ClCompile Include="sources\Circle.cpp" />
+    <ClCompile Include="sources\Cryptor.cpp" />
+    <ClCompile Include="sources\Display.cpp" />
+    <ClCompile Include="sources\DisplayCamera.cpp" />
+    <ClCompile Include="sources\DisplayEvent.cpp" />
+    <ClCompile Include="sources\DisplayFunctions.cpp" />
+    <ClCompile Include="sources\DisplayHUD.cpp" />
+    <ClCompile Include="sources\DisplayIa.cpp" />
+    <ClCompile Include="sources\DisplayInit.cpp" />
+    <ClCompile Include="sources\DisplayMenu.cpp" />
+    <ClCompile Include="sources\DisplayPhysics.cpp" />
+    <ClCompile Include="sources\DisplayWeapons.cpp" />
+    <ClCompile Include="sources\Drill.cpp" />
+    <ClCompile Include="sources\Dynamit.cpp" />
+    <ClCompile Include="sources\EventHandler.cpp" />
+    <ClCompile Include="sources\Forme2D.cpp" />
+    <ClCompile Include="sources\GameLoopFunctions.cpp" />
+    <ClCompile Include="sources\GameLoopInit.cpp" />
+    <ClCompile Include="sources\Grass.cpp" />
+    <ClCompile Include="sources\Grenade.cpp" />
+    <ClCompile Include="sources\Hole.cpp" />
+    <ClCompile Include="sources\IaThinking.cpp" />
+    <ClCompile Include="sources\IslandGenerator.cpp" />
+    <ClCompile Include="sources\Life.cpp" />
+    <ClCompile Include="sources\Line.cpp" />
+    <ClCompile Include="sources\LineMaker.cpp" />
+    <ClCompile Include="sources\Log.cpp" />
+    <ClCompile Include="sources\main.cpp" />
+    <ClCompile Include="sources\Map.cpp" />
+    <ClCompile Include="sources\MapOptimizor.cpp" />
+    <ClCompile Include="sources\Menu.cpp" />
+    <ClCompile Include="sources\RandNano.cpp" />
+    <ClCompile Include="sources\Rasterization.cpp" />
+    <ClCompile Include="sources\Rocket.cpp" />
+    <ClCompile Include="sources\Sound.cpp" />
+    <ClCompile Include="sources\Spawn.cpp" />
+    <ClCompile Include="sources\Spawner.cpp" />
+    <ClCompile Include="sources\StringObject.cpp" />
+    <ClCompile Include="sources\Team.cpp" />
+    <ClCompile Include="sources\Triangle.cpp" />
+    <ClCompile Include="sources\VecToObj.cpp" />
+    <ClCompile Include="sources\Weapons.cpp" />
+    <ClCompile Include="sources\Worms.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="IndieStudio.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="media\background\icon.ico" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{45F4F831-DC0A-44AF-B7C9-31685D30DBD9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>C:\Users\Paul Busque\Desktop\cpp_indie_studio\library\Sfml\lib;C:\Users\Paul Busque\Desktop\cpp_indie_studio\library\Lua\src53;C:\Users\Paul Busque\Desktop\cpp_indie_studio\library\Irrlicht\lib\Win32-visualstudio;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\Benjamin\Desktop\cpp_indie_studio\sources\includes;C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Sfml\include;C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Lua\src53;C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Irrlicht\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>C:\Users\Paul Busque\Desktop\cpp_indie_studio\library\Sfml\lib;C:\Users\Paul Busque\Desktop\cpp_indie_studio\library\Lua\src53;C:\Users\Paul Busque\Desktop\cpp_indie_studio\library\Irrlicht\lib\Win32-visualstudio;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\Benjamin\Desktop\cpp_indie_studio\sources\includes;C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Sfml\include;C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Lua\src53;C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Irrlicht\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\Users\Benjamin\Desktop\cpp_indie_studio\sources\includes;C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Sfml\include;C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Lua\src53;C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Irrlicht\include;$(IncludePath)</IncludePath>
+    <LibraryPath> C:\Users\Paul Busque\Desktop\cpp_indie_studio\library\Sfml\lib;C:\Users\Paul Busque\Desktop\cpp_indie_studio\library\Lua\src53;C:\Users\Paul Busque\Desktop\cpp_indie_studio\library\Irrlicht\lib\Win32-visualstudio;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>C:\Users\Benjamin\Desktop\cpp_indie_studio\sources\includes;C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Sfml\include;C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Lua\src53;C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Irrlicht\include;$(IncludePath)</IncludePath>
+    <LibraryPath> C:\Users\Paul Busque\Desktop\cpp_indie_studio\library\Sfml\lib;C:\Users\Paul Busque\Desktop\cpp_indie_studio\library\Lua\src53;C:\Users\Paul Busque\Desktop\cpp_indie_studio\library\Irrlicht\lib\Win32-visualstudio;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Users\Benjamin\Desktop\cpp_indie_studio\sources\includes;C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Sfml\include;C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Lua\src53;C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Irrlicht\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <Version>1.0</Version>
+      <AdditionalDependencies>Irrlicht.lib;lua5.3.lib;lua5.3-static.lib;sfml-audio-d.lib;sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Sfml\lib;C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Lua\src53;C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Irrlicht\lib\Win32-visualstudio;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>C:\Users\Benjamin\Desktop\cpp_indie_studio\sources\includes;C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Sfml\include;C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Lua\src53;C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Irrlicht\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <Version>1.0</Version>
+      <AdditionalDependencies>Irrlicht.lib;lua5.3.lib;lua5.3-static.lib;sfml-audio-d.lib;sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Sfml\lib;C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Lua\src53;C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Irrlicht\lib\Win32-visualstudio;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Benjamin\Desktop\cpp_indie_studio\sources\includes;C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Sfml\include;C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Lua\src53;C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Irrlicht\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <Version>1.0</Version>
+    </Link>
+    <Link>
+      <AdditionalLibraryDirectories>C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Sfml\lib;C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Lua\src53;C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Irrlicht\lib\Win32-visualstudio;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Irrlicht.lib;lua5.3.lib;lua5.3-static.lib;lsfml-audio-s.lib;lsfml-graphics-s.lib;lsfml-system-s.lib;lsfml-window-s.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Benjamin\Desktop\cpp_indie_studio\sources\includes;C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Sfml\include;C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Lua\src53;C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Irrlicht\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <Version>1.0</Version>
+    </Link>
+    <Link>
+      <AdditionalLibraryDirectories>C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Sfml\lib;C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Lua\src53;C:\Users\Benjamin\Desktop\cpp_indie_studio\library\Irrlicht\lib\Win32-visualstudio;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Irrlicht.lib;lua5.3.lib;lua5.3-static.lib;lsfml-audio-s.lib;lsfml-graphics-s.lib;lsfml-system-s.lib;lsfml-window-s.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
